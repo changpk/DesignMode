@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E75F26702019B4BED0B032F8E2FFC4C7E707794B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AB3E7AFD15E1A92BFD67B41AA1887DD786465C91" : 9223372036854775807,
+    "E75F26702019B4BED0B032F8E2FFC4C7E707794B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BAD16C99-AC70-4AD2-A6B8-D61073BFD870",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AB3E7AFD15E1A92BFD67B41AA1887DD786465C91" : "",
+    "E75F26702019B4BED0B032F8E2FFC4C7E707794B" : "DesignMode\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DesignMode",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DesignMode.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:changpk\/MonitTouchEvent.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB3E7AFD15E1A92BFD67B41AA1887DD786465C91"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:changpk\/DesignMode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E75F26702019B4BED0B032F8E2FFC4C7E707794B"
+    }
+  ]
+}

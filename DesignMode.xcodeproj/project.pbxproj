@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A22184F1E8F2E7300D693FB /* CommandPatterDescription.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 1A22184E1E8F2E7300D693FB /* CommandPatterDescription.rtfd */; };
+		1A2218531E8F39A000D693FB /* umlNote.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 1A2218521E8F39A000D693FB /* umlNote.rtfd */; };
 		1A5B72361E80FBCA006B7FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B72351E80FBCA006B7FEC /* main.m */; };
 		1A5B72391E80FBCA006B7FEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B72381E80FBCA006B7FEC /* AppDelegate.m */; };
 		1A5B723C1E80FBCA006B7FEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B723B1E80FBCA006B7FEC /* ViewController.m */; };
 		1A5B723F1E80FBCA006B7FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5B723D1E80FBCA006B7FEC /* Main.storyboard */; };
 		1A5B72411E80FBCA006B7FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5B72401E80FBCA006B7FEC /* Assets.xcassets */; };
 		1A5B72441E80FBCA006B7FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5B72421E80FBCA006B7FEC /* LaunchScreen.storyboard */; };
-		1A5B724E1E81004B006B7FEC /* CommandPatterDescription.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 1A5B724D1E81004B006B7FEC /* CommandPatterDescription.rtfd */; };
 		1A5B72511E810195006B7FEC /* CommandPatternContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B72501E810195006B7FEC /* CommandPatternContainerViewController.m */; };
 		1A5B72541E8103D7006B7FEC /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B72531E8103D7006B7FEC /* Receiver.m */; };
 		1A5B72571E810B48006B7FEC /* AddLightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B72561E810B48006B7FEC /* AddLightCommand.m */; };
 		1A5B725A1E810B5A006B7FEC /* MinusLightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B72591E810B5A006B7FEC /* MinusLightCommand.m */; };
 		1A5B72611E8115B5006B7FEC /* Invocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B72601E8115B5006B7FEC /* Invocker.m */; };
+		1AB697751E8FB3FB009273D5 /* ChuanqiCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6975F1E8FB3FB009273D5 /* ChuanqiCarFactory.m */; };
+		1AB697761E8FB3FB009273D5 /* ChuanqiChassis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697611E8FB3FB009273D5 /* ChuanqiChassis.m */; };
+		1AB697771E8FB3FB009273D5 /* ChuanqiChassisFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697631E8FB3FB009273D5 /* ChuanqiChassisFactory.m */; };
+		1AB697781E8FB3FB009273D5 /* ChuanqiTyreFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697651E8FB3FB009273D5 /* ChuanqiTyreFactory.m */; };
+		1AB697791E8FB3FB009273D5 /* MaPaiTyre.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697671E8FB3FB009273D5 /* MaPaiTyre.m */; };
+		1AB6977A1E8FB3FB009273D5 /* factoryPattern.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 1AB697691E8FB3FB009273D5 /* factoryPattern.rtfd */; };
+		1AB6977B1E8FB3FB009273D5 /* HavalCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6976C1E8FB3FB009273D5 /* HavalCarFactory.m */; };
+		1AB6977C1E8FB3FB009273D5 /* HavalChassis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6976E1E8FB3FB009273D5 /* HavalChassis.m */; };
+		1AB6977D1E8FB3FB009273D5 /* HavalChassisFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697701E8FB3FB009273D5 /* HavalChassisFactory.m */; };
+		1AB6977E1E8FB3FB009273D5 /* MiQilLinTyre.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697721E8FB3FB009273D5 /* MiQilLinTyre.m */; };
+		1AB6977F1E8FB3FB009273D5 /* MiQilLinTyreFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697741E8FB3FB009273D5 /* MiQilLinTyreFactory.m */; };
+		1AB697821E8FB439009273D5 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697811E8FB439009273D5 /* FactoryPatternViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A22184E1E8F2E7300D693FB /* CommandPatterDescription.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = CommandPatterDescription.rtfd; sourceTree = "<group>"; };
+		1A2218521E8F39A000D693FB /* umlNote.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = umlNote.rtfd; sourceTree = "<group>"; };
 		1A5B72311E80FBCA006B7FEC /* DesignMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5B72351E80FBCA006B7FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A5B72371E80FBCA006B7FEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,7 +47,6 @@
 		1A5B72401E80FBCA006B7FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5B72431E80FBCA006B7FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A5B72451E80FBCA006B7FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A5B724D1E81004B006B7FEC /* CommandPatterDescription.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; name = CommandPatterDescription.rtfd; path = CommandPattern/CommandPatterDescription.rtfd; sourceTree = "<group>"; };
 		1A5B724F1E810195006B7FEC /* CommandPatternContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandPatternContainerViewController.h; sourceTree = "<group>"; };
 		1A5B72501E810195006B7FEC /* CommandPatternContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandPatternContainerViewController.m; sourceTree = "<group>"; };
 		1A5B72521E8103D7006B7FEC /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Receiver.h; path = DesignMode/CommandPattern/Receiver.h; sourceTree = SOURCE_ROOT; };
@@ -44,6 +58,34 @@
 		1A5B725B1E810EEC006B7FEC /* CommandProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandProtocol.h; path = DesignMode/CommandPattern/CommandProtocol.h; sourceTree = SOURCE_ROOT; };
 		1A5B725F1E8115B5006B7FEC /* Invocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invocker.h; sourceTree = "<group>"; };
 		1A5B72601E8115B5006B7FEC /* Invocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invocker.m; sourceTree = "<group>"; };
+		1AB697581E8FB3FB009273D5 /* CarFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarFactoryProtocol.h; sourceTree = "<group>"; };
+		1AB697591E8FB3FB009273D5 /* ChassisFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChassisFactoryProtocol.h; sourceTree = "<group>"; };
+		1AB6975A1E8FB3FB009273D5 /* ChassisProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChassisProtocol.h; sourceTree = "<group>"; };
+		1AB6975B1E8FB3FB009273D5 /* TyreFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyreFactoryProtocol.h; sourceTree = "<group>"; };
+		1AB6975C1E8FB3FB009273D5 /* TyreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyreProtocol.h; sourceTree = "<group>"; };
+		1AB6975E1E8FB3FB009273D5 /* ChuanqiCarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuanqiCarFactory.h; sourceTree = "<group>"; };
+		1AB6975F1E8FB3FB009273D5 /* ChuanqiCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuanqiCarFactory.m; sourceTree = "<group>"; };
+		1AB697601E8FB3FB009273D5 /* ChuanqiChassis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuanqiChassis.h; sourceTree = "<group>"; };
+		1AB697611E8FB3FB009273D5 /* ChuanqiChassis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuanqiChassis.m; sourceTree = "<group>"; };
+		1AB697621E8FB3FB009273D5 /* ChuanqiChassisFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuanqiChassisFactory.h; sourceTree = "<group>"; };
+		1AB697631E8FB3FB009273D5 /* ChuanqiChassisFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuanqiChassisFactory.m; sourceTree = "<group>"; };
+		1AB697641E8FB3FB009273D5 /* ChuanqiTyreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuanqiTyreFactory.h; sourceTree = "<group>"; };
+		1AB697651E8FB3FB009273D5 /* ChuanqiTyreFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuanqiTyreFactory.m; sourceTree = "<group>"; };
+		1AB697661E8FB3FB009273D5 /* MaPaiTyre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaPaiTyre.h; sourceTree = "<group>"; };
+		1AB697671E8FB3FB009273D5 /* MaPaiTyre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaPaiTyre.m; sourceTree = "<group>"; };
+		1AB697691E8FB3FB009273D5 /* factoryPattern.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = factoryPattern.rtfd; sourceTree = "<group>"; };
+		1AB6976B1E8FB3FB009273D5 /* HavalCarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HavalCarFactory.h; sourceTree = "<group>"; };
+		1AB6976C1E8FB3FB009273D5 /* HavalCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HavalCarFactory.m; sourceTree = "<group>"; };
+		1AB6976D1E8FB3FB009273D5 /* HavalChassis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HavalChassis.h; sourceTree = "<group>"; };
+		1AB6976E1E8FB3FB009273D5 /* HavalChassis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HavalChassis.m; sourceTree = "<group>"; };
+		1AB6976F1E8FB3FB009273D5 /* HavalChassisFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HavalChassisFactory.h; sourceTree = "<group>"; };
+		1AB697701E8FB3FB009273D5 /* HavalChassisFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HavalChassisFactory.m; sourceTree = "<group>"; };
+		1AB697711E8FB3FB009273D5 /* MiQilLinTyre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiQilLinTyre.h; sourceTree = "<group>"; };
+		1AB697721E8FB3FB009273D5 /* MiQilLinTyre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiQilLinTyre.m; sourceTree = "<group>"; };
+		1AB697731E8FB3FB009273D5 /* MiQilLinTyreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiQilLinTyreFactory.h; sourceTree = "<group>"; };
+		1AB697741E8FB3FB009273D5 /* MiQilLinTyreFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiQilLinTyreFactory.m; sourceTree = "<group>"; };
+		1AB697801E8FB439009273D5 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
+		1AB697811E8FB439009273D5 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A22184D1E8F2E7300D693FB /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				1A22184E1E8F2E7300D693FB /* CommandPatterDescription.rtfd */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
 		1A5B72281E80FBCA006B7FEC = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +126,8 @@
 		1A5B72331E80FBCA006B7FEC /* DesignMode */ = {
 			isa = PBXGroup;
 			children = (
-				1A5B724D1E81004B006B7FEC /* CommandPatterDescription.rtfd */,
+				1A2218521E8F39A000D693FB /* umlNote.rtfd */,
+				1AB697561E8FB3FB009273D5 /* FactoryPattern */,
 				1A5B724C1E80FC59006B7FEC /* CommandPattern */,
 				1A5B72371E80FBCA006B7FEC /* AppDelegate.h */,
 				1A5B72381E80FBCA006B7FEC /* AppDelegate.m */,
@@ -104,6 +155,7 @@
 			children = (
 				1A5B724F1E810195006B7FEC /* CommandPatternContainerViewController.h */,
 				1A5B72501E810195006B7FEC /* CommandPatternContainerViewController.m */,
+				1A22184D1E8F2E7300D693FB /* Doc */,
 				1A5B725E1E811516006B7FEC /* Receiver */,
 				1A5B725C1E8114D2006B7FEC /* Command */,
 				1A5B725D1E8114D2006B7FEC /* Invoker */,
@@ -139,6 +191,73 @@
 				1A5B72531E8103D7006B7FEC /* Receiver.m */,
 			);
 			path = Receiver;
+			sourceTree = "<group>";
+		};
+		1AB697561E8FB3FB009273D5 /* FactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				1AB697801E8FB439009273D5 /* FactoryPatternViewController.h */,
+				1AB697811E8FB439009273D5 /* FactoryPatternViewController.m */,
+				1AB697681E8FB3FB009273D5 /* Doc */,
+				1AB697571E8FB3FB009273D5 /* Abstract */,
+				1AB6975D1E8FB3FB009273D5 /* ChuanqiCar */,
+				1AB6976A1E8FB3FB009273D5 /* HavalCar */,
+			);
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		1AB697571E8FB3FB009273D5 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				1AB697581E8FB3FB009273D5 /* CarFactoryProtocol.h */,
+				1AB697591E8FB3FB009273D5 /* ChassisFactoryProtocol.h */,
+				1AB6975A1E8FB3FB009273D5 /* ChassisProtocol.h */,
+				1AB6975B1E8FB3FB009273D5 /* TyreFactoryProtocol.h */,
+				1AB6975C1E8FB3FB009273D5 /* TyreProtocol.h */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		1AB6975D1E8FB3FB009273D5 /* ChuanqiCar */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6975E1E8FB3FB009273D5 /* ChuanqiCarFactory.h */,
+				1AB6975F1E8FB3FB009273D5 /* ChuanqiCarFactory.m */,
+				1AB697601E8FB3FB009273D5 /* ChuanqiChassis.h */,
+				1AB697611E8FB3FB009273D5 /* ChuanqiChassis.m */,
+				1AB697621E8FB3FB009273D5 /* ChuanqiChassisFactory.h */,
+				1AB697631E8FB3FB009273D5 /* ChuanqiChassisFactory.m */,
+				1AB697641E8FB3FB009273D5 /* ChuanqiTyreFactory.h */,
+				1AB697651E8FB3FB009273D5 /* ChuanqiTyreFactory.m */,
+				1AB697661E8FB3FB009273D5 /* MaPaiTyre.h */,
+				1AB697671E8FB3FB009273D5 /* MaPaiTyre.m */,
+			);
+			path = ChuanqiCar;
+			sourceTree = "<group>";
+		};
+		1AB697681E8FB3FB009273D5 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				1AB697691E8FB3FB009273D5 /* factoryPattern.rtfd */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
+		1AB6976A1E8FB3FB009273D5 /* HavalCar */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6976B1E8FB3FB009273D5 /* HavalCarFactory.h */,
+				1AB6976C1E8FB3FB009273D5 /* HavalCarFactory.m */,
+				1AB6976D1E8FB3FB009273D5 /* HavalChassis.h */,
+				1AB6976E1E8FB3FB009273D5 /* HavalChassis.m */,
+				1AB6976F1E8FB3FB009273D5 /* HavalChassisFactory.h */,
+				1AB697701E8FB3FB009273D5 /* HavalChassisFactory.m */,
+				1AB697711E8FB3FB009273D5 /* MiQilLinTyre.h */,
+				1AB697721E8FB3FB009273D5 /* MiQilLinTyre.m */,
+				1AB697731E8FB3FB009273D5 /* MiQilLinTyreFactory.h */,
+				1AB697741E8FB3FB009273D5 /* MiQilLinTyreFactory.m */,
+			);
+			path = HavalCar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +319,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2218531E8F39A000D693FB /* umlNote.rtfd in Resources */,
 				1A5B72441E80FBCA006B7FEC /* LaunchScreen.storyboard in Resources */,
-				1A5B724E1E81004B006B7FEC /* CommandPatterDescription.rtfd in Resources */,
 				1A5B72411E80FBCA006B7FEC /* Assets.xcassets in Resources */,
+				1AB6977A1E8FB3FB009273D5 /* factoryPattern.rtfd in Resources */,
+				1A22184F1E8F2E7300D693FB /* CommandPatterDescription.rtfd in Resources */,
 				1A5B723F1E80FBCA006B7FEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,13 +335,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB697781E8FB3FB009273D5 /* ChuanqiTyreFactory.m in Sources */,
+				1AB697771E8FB3FB009273D5 /* ChuanqiChassisFactory.m in Sources */,
+				1AB6977D1E8FB3FB009273D5 /* HavalChassisFactory.m in Sources */,
+				1AB697791E8FB3FB009273D5 /* MaPaiTyre.m in Sources */,
 				1A5B72571E810B48006B7FEC /* AddLightCommand.m in Sources */,
+				1AB6977B1E8FB3FB009273D5 /* HavalCarFactory.m in Sources */,
+				1AB697821E8FB439009273D5 /* FactoryPatternViewController.m in Sources */,
 				1A5B723C1E80FBCA006B7FEC /* ViewController.m in Sources */,
 				1A5B72511E810195006B7FEC /* CommandPatternContainerViewController.m in Sources */,
 				1A5B72391E80FBCA006B7FEC /* AppDelegate.m in Sources */,
 				1A5B72541E8103D7006B7FEC /* Receiver.m in Sources */,
 				1A5B72361E80FBCA006B7FEC /* main.m in Sources */,
+				1AB6977C1E8FB3FB009273D5 /* HavalChassis.m in Sources */,
+				1AB697761E8FB3FB009273D5 /* ChuanqiChassis.m in Sources */,
 				1A5B72611E8115B5006B7FEC /* Invocker.m in Sources */,
+				1AB697751E8FB3FB009273D5 /* ChuanqiCarFactory.m in Sources */,
+				1AB6977F1E8FB3FB009273D5 /* MiQilLinTyreFactory.m in Sources */,
+				1AB6977E1E8FB3FB009273D5 /* MiQilLinTyre.m in Sources */,
 				1A5B725A1E810B5A006B7FEC /* MinusLightCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changpengkai.DesignMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-unused";
 			};
 			name = Debug;
 		};
@@ -356,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changpengkai.DesignMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-unused";
 			};
 			name = Release;
 		};
@@ -378,6 +512,7 @@
 				1A5B724A1E80FBCA006B7FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

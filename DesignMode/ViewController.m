@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 #import "CommandPatternContainerViewController.h"
+#import "FactoryPatternViewController.h"
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) NSArray<NSString *> *patternsList;
@@ -22,6 +24,7 @@
     
     [self configControllerSetting];
     [self addTableView];
+    
 }
 
 - (void)configControllerSetting {
@@ -32,7 +35,7 @@
 
 - (void)addTableView {
 
-    UITableView *mainTb = [[UITableView alloc]initWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 20) style:UITableViewStylePlain];
+    UITableView *mainTb = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64) style:UITableViewStylePlain];
     mainTb.delegate = self;
     mainTb.dataSource = self;
     [self.view addSubview:mainTb];
@@ -58,7 +61,9 @@
     
     NSString *pattern = self.patternsList[indexPath.row];
     if ([pattern isEqualToString:@"命令模式"]) {
-        [self presentViewController:[[CommandPatternContainerViewController alloc]init] animated:YES completion:nil];
+        [self.navigationController pushViewController:[[CommandPatternContainerViewController alloc]init] animated:YES];
+    }else if ([pattern isEqualToString:@"工厂模式"]) {
+        [self.navigationController pushViewController:[[FactoryPatternViewController alloc]init] animated:YES];
     }
 }
 
@@ -66,7 +71,7 @@
 
 - (NSArray<NSString *>*)patternsList {
     if (!_patternsList) {
-        _patternsList = @[@"命令模式"];
+        _patternsList = @[@"命令模式",@"工厂模式"];
     }
     return _patternsList;
 }
