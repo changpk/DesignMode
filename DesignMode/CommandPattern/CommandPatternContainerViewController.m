@@ -33,15 +33,16 @@ typedef NS_ENUM(NSInteger,OperationType) {
     
     [self addBackButton];
     
-    [self addOptionButton:@"增加" opertionType:OperationTypeAddLight frame:CGRectMake(20, 80, 60, 30)];
-    [self addOptionButton:@"减小" opertionType:OperationTypeMinusLight frame:CGRectMake(100, 80, 60, 30)];
-    [self addOptionButton:@"撤销" opertionType:OperationTypeRollBack frame:CGRectMake(180, 80, 80, 30)];
+    [self addOptionButton:@"增加亮度" opertionType:OperationTypeAddLight frame:CGRectMake(20, 80, 90, 30)];
+    [self addOptionButton:@"减小亮度" opertionType:OperationTypeMinusLight frame:CGRectMake(130, 80, 90, 30)];
+    [self addOptionButton:@"撤销" opertionType:OperationTypeRollBack frame:CGRectMake(240, 80, 90, 30)];
 }
 
 #pragma mark - InitView
 
 - (void)configViewSetting {
     self.view.backgroundColor = [UIColor colorWithHue:0.8 saturation:0.7 brightness:0.2 alpha:1.0];
+    self.title = @"命令模式";
 }
 
 - (void)addOptionButton:(NSString *)title

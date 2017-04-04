@@ -10,7 +10,7 @@
 #import "TyreProtocol.h"
 #import "ChassisProtocol.h"
 
-// 汽车工厂方法用于生成汽车所需要的组件，没个组件都可以用一个工厂来实现
+// 汽车工厂方法用于生成汽车所需要的组件，每个组件都可以用一个工厂来实现
 @protocol CarFactoryProtocol <NSObject>
 
 // 生产轮胎

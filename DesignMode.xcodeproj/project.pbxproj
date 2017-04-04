@@ -32,6 +32,10 @@
 		1AB6977E1E8FB3FB009273D5 /* MiQilLinTyre.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697721E8FB3FB009273D5 /* MiQilLinTyre.m */; };
 		1AB6977F1E8FB3FB009273D5 /* MiQilLinTyreFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697741E8FB3FB009273D5 /* MiQilLinTyreFactory.m */; };
 		1AB697821E8FB439009273D5 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697811E8FB439009273D5 /* FactoryPatternViewController.m */; };
+		3A2B21D71E934AC200FF8B74 /* protoctypeDescrition.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B21D61E934AC200FF8B74 /* protoctypeDescrition.rtfd */; };
+		3A2B21DA1E9350CC00FF8B74 /* PrototypePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B21D91E9350CC00FF8B74 /* PrototypePatternViewController.m */; };
+		3A2B21E01E93520800FF8B74 /* EmailObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B21DF1E93520800FF8B74 /* EmailObj.m */; };
+		3A2B21E31E93525800FF8B74 /* EmailAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B21E21E93525800FF8B74 /* EmailAttachment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +90,14 @@
 		1AB697741E8FB3FB009273D5 /* MiQilLinTyreFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiQilLinTyreFactory.m; sourceTree = "<group>"; };
 		1AB697801E8FB439009273D5 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		1AB697811E8FB439009273D5 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
+		3A2B21D61E934AC200FF8B74 /* protoctypeDescrition.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = protoctypeDescrition.rtfd; sourceTree = "<group>"; };
+		3A2B21D81E9350CC00FF8B74 /* PrototypePatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypePatternViewController.h; sourceTree = "<group>"; };
+		3A2B21D91E9350CC00FF8B74 /* PrototypePatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypePatternViewController.m; sourceTree = "<group>"; };
+		3A2B21DC1E93516700FF8B74 /* CloneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloneProtocol.h; sourceTree = "<group>"; };
+		3A2B21DE1E93520800FF8B74 /* EmailObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailObj.h; sourceTree = "<group>"; };
+		3A2B21DF1E93520800FF8B74 /* EmailObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailObj.m; sourceTree = "<group>"; };
+		3A2B21E11E93525800FF8B74 /* EmailAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailAttachment.h; sourceTree = "<group>"; };
+		3A2B21E21E93525800FF8B74 /* EmailAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailAttachment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +140,7 @@
 			children = (
 				1A2218521E8F39A000D693FB /* umlNote.rtfd */,
 				1AB697561E8FB3FB009273D5 /* FactoryPattern */,
+				3A2B21D41E934A9200FF8B74 /* PrototypePattern */,
 				1A5B724C1E80FC59006B7FEC /* CommandPattern */,
 				1A5B72371E80FBCA006B7FEC /* AppDelegate.h */,
 				1A5B72381E80FBCA006B7FEC /* AppDelegate.m */,
@@ -260,6 +273,45 @@
 			path = HavalCar;
 			sourceTree = "<group>";
 		};
+		3A2B21D41E934A9200FF8B74 /* PrototypePattern */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B21D51E934A9200FF8B74 /* Doc */,
+				3A2B21D81E9350CC00FF8B74 /* PrototypePatternViewController.h */,
+				3A2B21D91E9350CC00FF8B74 /* PrototypePatternViewController.m */,
+				3A2B21DD1E9351F000FF8B74 /* Concrete */,
+				3A2B21DB1E93514700FF8B74 /* Abstract */,
+			);
+			path = PrototypePattern;
+			sourceTree = "<group>";
+		};
+		3A2B21D51E934A9200FF8B74 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B21D61E934AC200FF8B74 /* protoctypeDescrition.rtfd */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
+		3A2B21DB1E93514700FF8B74 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B21DC1E93516700FF8B74 /* CloneProtocol.h */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		3A2B21DD1E9351F000FF8B74 /* Concrete */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B21DE1E93520800FF8B74 /* EmailObj.h */,
+				3A2B21DF1E93520800FF8B74 /* EmailObj.m */,
+				3A2B21E11E93525800FF8B74 /* EmailAttachment.h */,
+				3A2B21E21E93525800FF8B74 /* EmailAttachment.m */,
+			);
+			path = Concrete;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +373,7 @@
 			files = (
 				1A2218531E8F39A000D693FB /* umlNote.rtfd in Resources */,
 				1A5B72441E80FBCA006B7FEC /* LaunchScreen.storyboard in Resources */,
+				3A2B21D71E934AC200FF8B74 /* protoctypeDescrition.rtfd in Resources */,
 				1A5B72411E80FBCA006B7FEC /* Assets.xcassets in Resources */,
 				1AB6977A1E8FB3FB009273D5 /* factoryPattern.rtfd in Resources */,
 				1A22184F1E8F2E7300D693FB /* CommandPatterDescription.rtfd in Resources */,
@@ -343,8 +396,11 @@
 				1AB6977B1E8FB3FB009273D5 /* HavalCarFactory.m in Sources */,
 				1AB697821E8FB439009273D5 /* FactoryPatternViewController.m in Sources */,
 				1A5B723C1E80FBCA006B7FEC /* ViewController.m in Sources */,
+				3A2B21DA1E9350CC00FF8B74 /* PrototypePatternViewController.m in Sources */,
+				3A2B21E31E93525800FF8B74 /* EmailAttachment.m in Sources */,
 				1A5B72511E810195006B7FEC /* CommandPatternContainerViewController.m in Sources */,
 				1A5B72391E80FBCA006B7FEC /* AppDelegate.m in Sources */,
+				3A2B21E01E93520800FF8B74 /* EmailObj.m in Sources */,
 				1A5B72541E8103D7006B7FEC /* Receiver.m in Sources */,
 				1A5B72361E80FBCA006B7FEC /* main.m in Sources */,
 				1AB6977C1E8FB3FB009273D5 /* HavalChassis.m in Sources */,

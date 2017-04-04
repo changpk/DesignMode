@@ -10,10 +10,12 @@
 
 #import "CommandPatternContainerViewController.h"
 #import "FactoryPatternViewController.h"
+#import "PrototypePatternViewController.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) NSArray<NSString *> *patternsList;
+@property (nonatomic, copy) NSMutableString *str_copy;
 @end
 
 @implementation ViewController
@@ -24,6 +26,8 @@
     
     [self configControllerSetting];
     [self addTableView];
+
+    
     
 }
 
@@ -64,6 +68,8 @@
         [self.navigationController pushViewController:[[CommandPatternContainerViewController alloc]init] animated:YES];
     }else if ([pattern isEqualToString:@"工厂模式"]) {
         [self.navigationController pushViewController:[[FactoryPatternViewController alloc]init] animated:YES];
+    }else if ([pattern isEqualToString:@"原型模式"]) {
+        [self.navigationController pushViewController:[[PrototypePatternViewController alloc]init] animated:YES];
     }
 }
 
@@ -71,7 +77,7 @@
 
 - (NSArray<NSString *>*)patternsList {
     if (!_patternsList) {
-        _patternsList = @[@"命令模式",@"工厂模式"];
+        _patternsList = @[@"命令模式",@"工厂模式",@"原型模式"];
     }
     return _patternsList;
 }
