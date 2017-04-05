@@ -32,6 +32,11 @@
 		1AB6977E1E8FB3FB009273D5 /* MiQilLinTyre.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697721E8FB3FB009273D5 /* MiQilLinTyre.m */; };
 		1AB6977F1E8FB3FB009273D5 /* MiQilLinTyreFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697741E8FB3FB009273D5 /* MiQilLinTyreFactory.m */; };
 		1AB697821E8FB439009273D5 /* FactoryPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB697811E8FB439009273D5 /* FactoryPatternViewController.m */; };
+		1AD7177E1E94C62700F1933A /* adapterPatternDescription.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7177D1E94C62700F1933A /* adapterPatternDescription.rtfd */; };
+		1AD717831E94D4CA00F1933A /* Voltage220.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD717821E94D4CA00F1933A /* Voltage220.m */; };
+		1AD717861E94D54E00F1933A /* MobileVoltageAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD717851E94D54E00F1933A /* MobileVoltageAdapter.m */; };
+		1AD717891E94D85800F1933A /* AdapterPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD717881E94D85800F1933A /* AdapterPatternViewController.m */; };
+		1AD717901E94DA7500F1933A /* IphoneMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7178F1E94DA7500F1933A /* IphoneMobile.m */; };
 		3A2B21D71E934AC200FF8B74 /* protoctypeDescrition.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B21D61E934AC200FF8B74 /* protoctypeDescrition.rtfd */; };
 		3A2B21DA1E9350CC00FF8B74 /* PrototypePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B21D91E9350CC00FF8B74 /* PrototypePatternViewController.m */; };
 		3A2B21E01E93520800FF8B74 /* EmailObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B21DF1E93520800FF8B74 /* EmailObj.m */; };
@@ -90,6 +95,16 @@
 		1AB697741E8FB3FB009273D5 /* MiQilLinTyreFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiQilLinTyreFactory.m; sourceTree = "<group>"; };
 		1AB697801E8FB439009273D5 /* FactoryPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternViewController.h; sourceTree = "<group>"; };
 		1AB697811E8FB439009273D5 /* FactoryPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternViewController.m; sourceTree = "<group>"; };
+		1AD7177D1E94C62700F1933A /* adapterPatternDescription.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = adapterPatternDescription.rtfd; sourceTree = "<group>"; };
+		1AD717801E94D0C300F1933A /* MobileVoltageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileVoltageProtocol.h; sourceTree = "<group>"; };
+		1AD717811E94D4CA00F1933A /* Voltage220.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voltage220.h; sourceTree = "<group>"; };
+		1AD717821E94D4CA00F1933A /* Voltage220.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voltage220.m; sourceTree = "<group>"; };
+		1AD717841E94D54E00F1933A /* MobileVoltageAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileVoltageAdapter.h; sourceTree = "<group>"; };
+		1AD717851E94D54E00F1933A /* MobileVoltageAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileVoltageAdapter.m; sourceTree = "<group>"; };
+		1AD717871E94D85800F1933A /* AdapterPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterPatternViewController.h; sourceTree = "<group>"; };
+		1AD717881E94D85800F1933A /* AdapterPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterPatternViewController.m; sourceTree = "<group>"; };
+		1AD7178E1E94DA7500F1933A /* IphoneMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneMobile.h; sourceTree = "<group>"; };
+		1AD7178F1E94DA7500F1933A /* IphoneMobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IphoneMobile.m; sourceTree = "<group>"; };
 		3A2B21D61E934AC200FF8B74 /* protoctypeDescrition.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = protoctypeDescrition.rtfd; sourceTree = "<group>"; };
 		3A2B21D81E9350CC00FF8B74 /* PrototypePatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypePatternViewController.h; sourceTree = "<group>"; };
 		3A2B21D91E9350CC00FF8B74 /* PrototypePatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypePatternViewController.m; sourceTree = "<group>"; };
@@ -139,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				1A2218521E8F39A000D693FB /* umlNote.rtfd */,
+				1AD717781E94C5FB00F1933A /* AdapterPattern */,
 				1AB697561E8FB3FB009273D5 /* FactoryPattern */,
 				3A2B21D41E934A9200FF8B74 /* PrototypePattern */,
 				1A5B724C1E80FC59006B7FEC /* CommandPattern */,
@@ -273,6 +289,63 @@
 			path = HavalCar;
 			sourceTree = "<group>";
 		};
+		1AD717781E94C5FB00F1933A /* AdapterPattern */ = {
+			isa = PBXGroup;
+			children = (
+				1AD717871E94D85800F1933A /* AdapterPatternViewController.h */,
+				1AD717881E94D85800F1933A /* AdapterPatternViewController.m */,
+				1AD7177B1E94C5FB00F1933A /* Doc */,
+				1AD7178D1E94DA7500F1933A /* Client */,
+				1AD717791E94C5FB00F1933A /* Adaptee */,
+				1AD7177A1E94C5FB00F1933A /* Adapter */,
+				1AD7177C1E94C5FB00F1933A /* Target */,
+			);
+			path = AdapterPattern;
+			sourceTree = "<group>";
+		};
+		1AD717791E94C5FB00F1933A /* Adaptee */ = {
+			isa = PBXGroup;
+			children = (
+				1AD717811E94D4CA00F1933A /* Voltage220.h */,
+				1AD717821E94D4CA00F1933A /* Voltage220.m */,
+			);
+			path = Adaptee;
+			sourceTree = "<group>";
+		};
+		1AD7177A1E94C5FB00F1933A /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				1AD717841E94D54E00F1933A /* MobileVoltageAdapter.h */,
+				1AD717851E94D54E00F1933A /* MobileVoltageAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		1AD7177B1E94C5FB00F1933A /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7177D1E94C62700F1933A /* adapterPatternDescription.rtfd */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
+		1AD7177C1E94C5FB00F1933A /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				1AD717801E94D0C300F1933A /* MobileVoltageProtocol.h */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		1AD7178D1E94DA7500F1933A /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7178E1E94DA7500F1933A /* IphoneMobile.h */,
+				1AD7178F1E94DA7500F1933A /* IphoneMobile.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
 		3A2B21D41E934A9200FF8B74 /* PrototypePattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +446,7 @@
 			files = (
 				1A2218531E8F39A000D693FB /* umlNote.rtfd in Resources */,
 				1A5B72441E80FBCA006B7FEC /* LaunchScreen.storyboard in Resources */,
+				1AD7177E1E94C62700F1933A /* adapterPatternDescription.rtfd in Resources */,
 				3A2B21D71E934AC200FF8B74 /* protoctypeDescrition.rtfd in Resources */,
 				1A5B72411E80FBCA006B7FEC /* Assets.xcassets in Resources */,
 				1AB6977A1E8FB3FB009273D5 /* factoryPattern.rtfd in Resources */,
@@ -388,11 +462,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD717831E94D4CA00F1933A /* Voltage220.m in Sources */,
 				1AB697781E8FB3FB009273D5 /* ChuanqiTyreFactory.m in Sources */,
 				1AB697771E8FB3FB009273D5 /* ChuanqiChassisFactory.m in Sources */,
 				1AB6977D1E8FB3FB009273D5 /* HavalChassisFactory.m in Sources */,
+				1AD717861E94D54E00F1933A /* MobileVoltageAdapter.m in Sources */,
 				1AB697791E8FB3FB009273D5 /* MaPaiTyre.m in Sources */,
 				1A5B72571E810B48006B7FEC /* AddLightCommand.m in Sources */,
+				1AD717891E94D85800F1933A /* AdapterPatternViewController.m in Sources */,
+				1AD717901E94DA7500F1933A /* IphoneMobile.m in Sources */,
 				1AB6977B1E8FB3FB009273D5 /* HavalCarFactory.m in Sources */,
 				1AB697821E8FB439009273D5 /* FactoryPatternViewController.m in Sources */,
 				1A5B723C1E80FBCA006B7FEC /* ViewController.m in Sources */,
