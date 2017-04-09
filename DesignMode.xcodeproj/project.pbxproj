@@ -37,6 +37,13 @@
 		1AD717861E94D54E00F1933A /* MobileVoltageAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD717851E94D54E00F1933A /* MobileVoltageAdapter.m */; };
 		1AD717891E94D85800F1933A /* AdapterPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD717881E94D85800F1933A /* AdapterPatternViewController.m */; };
 		1AD717901E94DA7500F1933A /* IphoneMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7178F1E94DA7500F1933A /* IphoneMobile.m */; };
+		3A086BBD1E9A17CD00414527 /* bridgeDescription.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 3A086BBC1E9A17CD00414527 /* bridgeDescription.rtfd */; };
+		3A086BC21E9A1CA600414527 /* AbstractRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A086BC11E9A1CA600414527 /* AbstractRoad.m */; };
+		3A086BC51E9A1E6000414527 /* BaoMaCarRunImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A086BC41E9A1E6000414527 /* BaoMaCarRunImplementor.m */; };
+		3A086BC81E9A1EB500414527 /* AoDiCarRunImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A086BC71E9A1EB500414527 /* AoDiCarRunImplementor.m */; };
+		3A086BCB1E9A1EE700414527 /* SpeedRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A086BCA1E9A1EE700414527 /* SpeedRoad.m */; };
+		3A086BCE1E9A1F0200414527 /* MoutainRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A086BCD1E9A1F0200414527 /* MoutainRoad.m */; };
+		3A086BD11E9A1FC500414527 /* BridgePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A086BD01E9A1FC500414527 /* BridgePatternViewController.m */; };
 		3A2B21D71E934AC200FF8B74 /* protoctypeDescrition.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B21D61E934AC200FF8B74 /* protoctypeDescrition.rtfd */; };
 		3A2B21DA1E9350CC00FF8B74 /* PrototypePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B21D91E9350CC00FF8B74 /* PrototypePatternViewController.m */; };
 		3A2B21E01E93520800FF8B74 /* EmailObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B21DF1E93520800FF8B74 /* EmailObj.m */; };
@@ -105,6 +112,20 @@
 		1AD717881E94D85800F1933A /* AdapterPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterPatternViewController.m; sourceTree = "<group>"; };
 		1AD7178E1E94DA7500F1933A /* IphoneMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IphoneMobile.h; sourceTree = "<group>"; };
 		1AD7178F1E94DA7500F1933A /* IphoneMobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IphoneMobile.m; sourceTree = "<group>"; };
+		3A086BBC1E9A17CD00414527 /* bridgeDescription.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = bridgeDescription.rtfd; sourceTree = "<group>"; };
+		3A086BBF1E9A1C0400414527 /* CarRunImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarRunImplementor.h; sourceTree = "<group>"; };
+		3A086BC01E9A1CA600414527 /* AbstractRoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractRoad.h; sourceTree = "<group>"; };
+		3A086BC11E9A1CA600414527 /* AbstractRoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractRoad.m; sourceTree = "<group>"; };
+		3A086BC31E9A1E6000414527 /* BaoMaCarRunImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoMaCarRunImplementor.h; sourceTree = "<group>"; };
+		3A086BC41E9A1E6000414527 /* BaoMaCarRunImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaoMaCarRunImplementor.m; sourceTree = "<group>"; };
+		3A086BC61E9A1EB500414527 /* AoDiCarRunImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AoDiCarRunImplementor.h; sourceTree = "<group>"; };
+		3A086BC71E9A1EB500414527 /* AoDiCarRunImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AoDiCarRunImplementor.m; sourceTree = "<group>"; };
+		3A086BC91E9A1EE700414527 /* SpeedRoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedRoad.h; sourceTree = "<group>"; };
+		3A086BCA1E9A1EE700414527 /* SpeedRoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedRoad.m; sourceTree = "<group>"; };
+		3A086BCC1E9A1F0200414527 /* MoutainRoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoutainRoad.h; sourceTree = "<group>"; };
+		3A086BCD1E9A1F0200414527 /* MoutainRoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoutainRoad.m; sourceTree = "<group>"; };
+		3A086BCF1E9A1FC500414527 /* BridgePatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgePatternViewController.h; sourceTree = "<group>"; };
+		3A086BD01E9A1FC500414527 /* BridgePatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgePatternViewController.m; sourceTree = "<group>"; };
 		3A2B21D61E934AC200FF8B74 /* protoctypeDescrition.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = protoctypeDescrition.rtfd; sourceTree = "<group>"; };
 		3A2B21D81E9350CC00FF8B74 /* PrototypePatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypePatternViewController.h; sourceTree = "<group>"; };
 		3A2B21D91E9350CC00FF8B74 /* PrototypePatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypePatternViewController.m; sourceTree = "<group>"; };
@@ -154,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				1A2218521E8F39A000D693FB /* umlNote.rtfd */,
+				3A086BB71E9A179400414527 /* BridgePattern */,
 				1AD717781E94C5FB00F1933A /* AdapterPattern */,
 				1AB697561E8FB3FB009273D5 /* FactoryPattern */,
 				3A2B21D41E934A9200FF8B74 /* PrototypePattern */,
@@ -346,6 +368,59 @@
 			path = Client;
 			sourceTree = "<group>";
 		};
+		3A086BB71E9A179400414527 /* BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				3A086BBA1E9A179400414527 /* Doc */,
+				3A086BB91E9A179400414527 /* Client */,
+				3A086BB81E9A179400414527 /* Abstract */,
+				3A086BBB1E9A179400414527 /* Implementor */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+		3A086BB81E9A179400414527 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				3A086BC01E9A1CA600414527 /* AbstractRoad.h */,
+				3A086BC11E9A1CA600414527 /* AbstractRoad.m */,
+				3A086BC91E9A1EE700414527 /* SpeedRoad.h */,
+				3A086BCA1E9A1EE700414527 /* SpeedRoad.m */,
+				3A086BCC1E9A1F0200414527 /* MoutainRoad.h */,
+				3A086BCD1E9A1F0200414527 /* MoutainRoad.m */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		3A086BB91E9A179400414527 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				3A086BCF1E9A1FC500414527 /* BridgePatternViewController.h */,
+				3A086BD01E9A1FC500414527 /* BridgePatternViewController.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		3A086BBA1E9A179400414527 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				3A086BBC1E9A17CD00414527 /* bridgeDescription.rtfd */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
+		3A086BBB1E9A179400414527 /* Implementor */ = {
+			isa = PBXGroup;
+			children = (
+				3A086BBF1E9A1C0400414527 /* CarRunImplementor.h */,
+				3A086BC31E9A1E6000414527 /* BaoMaCarRunImplementor.h */,
+				3A086BC41E9A1E6000414527 /* BaoMaCarRunImplementor.m */,
+				3A086BC61E9A1EB500414527 /* AoDiCarRunImplementor.h */,
+				3A086BC71E9A1EB500414527 /* AoDiCarRunImplementor.m */,
+			);
+			path = Implementor;
+			sourceTree = "<group>";
+		};
 		3A2B21D41E934A9200FF8B74 /* PrototypePattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +524,7 @@
 				1AD7177E1E94C62700F1933A /* adapterPatternDescription.rtfd in Resources */,
 				3A2B21D71E934AC200FF8B74 /* protoctypeDescrition.rtfd in Resources */,
 				1A5B72411E80FBCA006B7FEC /* Assets.xcassets in Resources */,
+				3A086BBD1E9A17CD00414527 /* bridgeDescription.rtfd in Resources */,
 				1AB6977A1E8FB3FB009273D5 /* factoryPattern.rtfd in Resources */,
 				1A22184F1E8F2E7300D693FB /* CommandPatterDescription.rtfd in Resources */,
 				1A5B723F1E80FBCA006B7FEC /* Main.storyboard in Resources */,
@@ -464,21 +540,26 @@
 			files = (
 				1AD717831E94D4CA00F1933A /* Voltage220.m in Sources */,
 				1AB697781E8FB3FB009273D5 /* ChuanqiTyreFactory.m in Sources */,
+				3A086BD11E9A1FC500414527 /* BridgePatternViewController.m in Sources */,
 				1AB697771E8FB3FB009273D5 /* ChuanqiChassisFactory.m in Sources */,
 				1AB6977D1E8FB3FB009273D5 /* HavalChassisFactory.m in Sources */,
 				1AD717861E94D54E00F1933A /* MobileVoltageAdapter.m in Sources */,
 				1AB697791E8FB3FB009273D5 /* MaPaiTyre.m in Sources */,
 				1A5B72571E810B48006B7FEC /* AddLightCommand.m in Sources */,
 				1AD717891E94D85800F1933A /* AdapterPatternViewController.m in Sources */,
+				3A086BC81E9A1EB500414527 /* AoDiCarRunImplementor.m in Sources */,
 				1AD717901E94DA7500F1933A /* IphoneMobile.m in Sources */,
+				3A086BC21E9A1CA600414527 /* AbstractRoad.m in Sources */,
 				1AB6977B1E8FB3FB009273D5 /* HavalCarFactory.m in Sources */,
 				1AB697821E8FB439009273D5 /* FactoryPatternViewController.m in Sources */,
 				1A5B723C1E80FBCA006B7FEC /* ViewController.m in Sources */,
 				3A2B21DA1E9350CC00FF8B74 /* PrototypePatternViewController.m in Sources */,
+				3A086BCB1E9A1EE700414527 /* SpeedRoad.m in Sources */,
 				3A2B21E31E93525800FF8B74 /* EmailAttachment.m in Sources */,
 				1A5B72511E810195006B7FEC /* CommandPatternContainerViewController.m in Sources */,
 				1A5B72391E80FBCA006B7FEC /* AppDelegate.m in Sources */,
 				3A2B21E01E93520800FF8B74 /* EmailObj.m in Sources */,
+				3A086BC51E9A1E6000414527 /* BaoMaCarRunImplementor.m in Sources */,
 				1A5B72541E8103D7006B7FEC /* Receiver.m in Sources */,
 				1A5B72361E80FBCA006B7FEC /* main.m in Sources */,
 				1AB6977C1E8FB3FB009273D5 /* HavalChassis.m in Sources */,
@@ -487,6 +568,7 @@
 				1AB697751E8FB3FB009273D5 /* ChuanqiCarFactory.m in Sources */,
 				1AB6977F1E8FB3FB009273D5 /* MiQilLinTyreFactory.m in Sources */,
 				1AB6977E1E8FB3FB009273D5 /* MiQilLinTyre.m in Sources */,
+				3A086BCE1E9A1F0200414527 /* MoutainRoad.m in Sources */,
 				1A5B725A1E810B5A006B7FEC /* MinusLightCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

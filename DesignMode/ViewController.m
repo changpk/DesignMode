@@ -12,6 +12,7 @@
 #import "FactoryPatternViewController.h"
 #import "PrototypePatternViewController.h"
 #import "AdapterPatternViewController.h"
+#import "BridgePatternViewController.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -73,6 +74,8 @@
         [self.navigationController pushViewController:[[PrototypePatternViewController alloc]init] animated:YES];
     }else if ([pattern isEqualToString:@"适配器模式"]) {
         [self.navigationController pushViewController:[[AdapterPatternViewController alloc]init] animated:YES];
+    }else if ([pattern isEqualToString:@"桥接模式"]) {
+        [self.navigationController pushViewController:[[BridgePatternViewController alloc]init] animated:YES];
     }
 }
 
@@ -80,7 +83,7 @@
 
 - (NSArray<NSString *>*)patternsList {
     if (!_patternsList) {
-        _patternsList = @[@"命令模式",@"工厂模式",@"原型模式",@"适配器模式"];
+        _patternsList = @[@"命令模式",@"工厂模式",@"原型模式",@"适配器模式",@"桥接模式"];
     }
     return _patternsList;
 }
